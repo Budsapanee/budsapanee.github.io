@@ -1,0 +1,192 @@
+body {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-family: 'DM Serif Display', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: justify;
+    margin: 0.17rem;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.logo {
+    max-width: 4rem;;
+}
+
+.img-max-height {
+    max-height: 35rem;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #77808f;
+}
+
+.card-bio-padding {
+    padding-bottom: 2rem;
+}
+
+.padding-right {
+    padding-right: 0.7rem;
+}
+
+.padding-top {
+    padding-top: 0.7rem;
+}
+
+.padding-bottom {
+    padding-bottom: 0.7rem;
+}
+
+.margin-top {
+    margin-top: 1.6rem;
+}
+
+.gallery-padding {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+
+.menu-bio {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    border: none;
+    background: none;
+}
+
+.menu-bio:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #4287f5;
+    font-size: 16px;
+    border: none;
+    background: none;
+}
+
+.menu-bio-active {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #4287f5;
+    font-size: 16px;
+    border: none;
+    background: none;
+}
+
+.img-card-bio {
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.img-card-bio:hover {
+    border-radius: 10px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.img-cover {
+    border-radius: 10px;
+    /*max-width: 180rem;*/
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+
+.section-margin {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-devider {
+    font-weight: bold;
+}
+
+.hr-theme-slash-2 {
+    display: flex;
+}
+
+.hr-line {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 2px solid #000;
+}
+
+.hr-icon {
+    position: relative;
+    top: 3px;
+    font-size: 1.7rem;
+    color: #000000;
+}
+
+.hr-icon-small {
+    position: relative;
+    top: 3px;
+    font-size: 0.7rem;
+    color: #000000
+}
+
+.badge-flowaccount-bio {
+    background-color: #dbf0ff;
+    color: #4287f5;
+}
+
+.badge-capstone-bio {
+    background-color: #f2faf0;
+    color: #00cc6a;
+}
+
+.badge-sideproject-bio {
+    background-color: #f1e1fc;
+    color: #9129d7;
+}
+
+.badge-1st{
+    background-color: #fff6e6;
+    color: #fea000;
+}
+
+.badge-2nd{
+    background-color: #edeef3;
+    color: #434a54;
+}
+
+.badge-3rd{
+    background-color: #e6cfc3;
+    color: #d14f08;
+}
+
+.highlight {
+    background-color: #ffc400;
+}
