@@ -3,6 +3,11 @@ body {
     padding-bottom: 5%;
 }
 
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
 a {
     text-decoration: none;
 }
@@ -17,6 +22,19 @@ p {
     font-weight: 300;
     display: justify;
     margin: 0.17rem;
+}
+
+.p-bold {
+    font-weight: 700;
+}
+
+.p-padding {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.icon-padding {
+    padding-top:0.25rem;
 }
 
 h3 {
@@ -124,8 +142,8 @@ h5 {
 
 
 .section-margin {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .section-devider {
@@ -189,4 +207,31 @@ h5 {
 
 .highlight {
     background-color: #ffc400;
+}
+
+.button-capsule {
+    background-color:#dbf0ff;
+    color: #4287f5;
+    padding-right:1rem;
+    padding-right:1rem;
+    border: none;
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1rem;
+    opacity: 1;
+}
+
+.button-capsule:hover {
+    background-color:#dbf0ff;
+    color: #4287f5;
+    padding-right:1rem;
+    padding-right:1rem;
+    border: none;
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1rem;
+    opacity: 0.6;
+    cursor: pointer;
 }
