@@ -65,6 +65,10 @@ h5 {
     padding-bottom: 2rem;
 }
 
+.padding-left {
+    padding-left: 0.7rem;
+}
+
 .padding-right {
     padding-right: 0.7rem;
 }
@@ -79,6 +83,14 @@ h5 {
 
 .margin-top {
     margin-top: 1.6rem;
+}
+
+.margin-right {
+    margin-right: 1.6rem;
+}
+
+.margin-bottom {
+    margin-bottom: 1.6rem;
 }
 
 .gallery-padding {
@@ -234,4 +246,28 @@ h5 {
     font-size: 1rem;
     opacity: 0.6;
     cursor: pointer;
+}
+
+.button-2-capsule {
+    background-color:#edeef3;
+    color: #4287f5#434a54;
+    padding-right:1rem;
+    padding-right:1rem;
+    border: none;
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1rem;
+    opacity: 1;
+    cursor: default;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-profile {
+    max-width: 12rem;
+    max-height: auto;
+    background-color: #dbf0ff;
 }
